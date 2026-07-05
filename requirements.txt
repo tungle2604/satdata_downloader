@@ -1,0 +1,12 @@
+streamlit>=1.36
+pandas>=2.2
+requests>=2.32
+pystac-client>=0.8
+planetary-computer>=1.0
+python-dotenv>=1.0
+folium>=0.17
+streamlit-folium>=0.22
+tqdm>=4.66
+earthengine-api>=1.5
+pytest>=8.0
+

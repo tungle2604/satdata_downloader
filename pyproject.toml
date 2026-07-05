@@ -1,0 +1,10 @@
+[project]
+name = "satdata-downloader"
+version = "0.1.0"
+description = "Python tool to search and download Landsat/Sentinel data from EarthSearch, Planetary Computer, Copernicus, USGS M2M, and Google Earth Engine."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
