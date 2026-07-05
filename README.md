@@ -10,8 +10,6 @@ Công cụ Python để tìm kiếm và tải dữ liệu Landsat/Sentinel từ 
 
 ## Kết luận nhanh về mức độ hoàn chỉnh
 
-Nếu chỉ có thư mục gốc ban đầu thì chưa thể gọi là công cụ hoàn chỉnh, vì chưa có mã nguồn, giao diện, hướng dẫn chạy, file cấu hình, kiểm thử, hay Git repo.
-
 Bộ dự án này là phiên bản MVP có thể demo:
 
 - Có giao diện Streamlit để chọn nguồn, bbox, ngày, độ mây, xem metadata và tải asset.
@@ -21,13 +19,6 @@ Bộ dự án này là phiên bản MVP có thể demo:
 - Có `.gitignore` để không đẩy file ảnh vệ tinh dung lượng lớn lên Git.
 - Có test nhỏ cho phần xử lý bbox và registry provider.
 
-Để gọi là hoàn chỉnh theo mức độ bảo vệ/báo cáo, bạn nên chạy và chụp minh chứng cho ít nhất:
-
-- EarthSearch search + tải 1 asset nhỏ/preview.
-- Planetary Computer search + tải 1 asset.
-- Copernicus search + tải 1 product sau khi điền tài khoản.
-- USGS search + tải 1 product sau khi có M2M token.
-- GEE search + export 1 vùng nhỏ sau khi authenticate.
 
 ## Cài đặt
 
